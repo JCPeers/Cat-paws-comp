@@ -22,8 +22,8 @@ class Cat {
     return `  
       <div class="cat-info" style="background-image: url(${avatar})">
           <div class="text-info">
-            <h4> ${name}, ${age} </h4>
-            <h3 class="cat-bio"> ${bio} </h3>
+            <h2> ${name}, ${age} </h2>
+            <h4 class="cat-bio"> ${bio} </h4>
           </div>
       </div>
       

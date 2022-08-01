@@ -5,6 +5,7 @@ html {
   height: 100%;
   width: 100%;
   background: linear-gradient(#fec5bb, #f8edeb);
+  font-family: "Kanit", sans-serif;
 }
 /*  header section */
 
@@ -14,7 +15,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
 
-  margin: 050px auto;
+  margin: 50px auto;
   padding: 40px 0;
 }
 
@@ -55,6 +56,16 @@ header {
   border-radius: 20px;
   background-size: cover;
   background-position: center;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .text-info {
@@ -63,3 +74,24 @@ header {
 }
 
 /*  footer section */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.heart-icon,
+.poop-icon {
+  padding: 0 64px;
+  margin: 50px 0;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.heart-icon {
+  color: #ff5d8f;
+}
+
+.poop-icon {
+  color: #7f5539;
+}
