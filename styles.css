@@ -1,0 +1,65 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#fec5bb, #f8edeb);
+}
+/*  header section */
+
+header {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 050px auto;
+  padding: 40px 0;
+}
+
+.cat-color {
+  color: #f77f00;
+}
+
+.paw-color {
+  color: #d62828;
+}
+
+.comment-color {
+  color: #023047;
+}
+
+/*  main section  */
+
+#main-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  width: 100%;
+  height: 600px;
+  max-width: 800px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.cat-info {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-info {
+  color: white;
+  padding: 20px;
+}
+
+/*  footer section */
